@@ -1,8 +1,8 @@
-version: '3'
+version: '3.5'
 services:
   Resume_:
-    image: resume_tanatip/node-express
+    image: tanatip2539/resume1
     ports:
-      - "8000:8000"
-    command: "npm start"
+      - "8017:8000"
+    command: "node server.js"
 
