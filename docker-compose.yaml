@@ -1,7 +1,7 @@
 version: '3.5'
 services:
   Resume:
-    image: tanatip2539/resume1
+    image: tanatip2539/resume
     ports:
       - "8017:8000"
     command: "node server.js"
