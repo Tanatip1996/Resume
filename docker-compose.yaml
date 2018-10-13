@@ -1,6 +1,6 @@
 version: '3.5'
 services:
-  Resume:
+  resume:
     image: tanatip2539/resume
     ports:
       - "8017:8000"
